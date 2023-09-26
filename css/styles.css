@@ -1,0 +1,92 @@
+
+
+/******************/
+/* CSS tag rules*/
+
+html{
+	font-family:Cambria, "Hoefler Text", "Times New Roman", serif;
+}
+body{
+	background:#9fa8a3;
+}
+
+h1{
+text-align:center;
+}
+nav{
+	border-bottom: 1px solid black;
+	padding-bottom:5px;
+	text-align:center;
+}
+
+figure img{
+	width:100%;
+	height:auto;
+}
+
+footer{
+	text-align:center;
+}
+
+/* https://cssgradient.io/ */
+nav a{
+	font-size:20px;
+	font-weight:bold;
+	margin-right:15px;
+	text-decoration:none;
+	color:maroon;
+	
+}
+
+nav a:hover{
+	background:#e3e0cf;
+}
+
+aside{
+		width:15%;
+		float:left;
+		box-sizing:border-box;
+		padding:0 5px;
+}
+
+
+
+
+
+/*******************/
+/* CSS id rules */
+#container{
+	max-width:1090px;
+	width:100%;
+	margin:0 auto;
+	padding: 10px 10px 5px 10px;
+}
+
+#hideMe{
+	box-sizing:border-box;
+	padding-right: 1em;
+	margin-right:2em;
+}
+
+
+/*******************/
+/* CSS class rules */
+.threeCols{
+	box-sizing:border-box;
+	width:20%;
+	float:left;
+	margin-right:2em;
+	padding:0 3px;
+	
+}
+.clear{
+	clear:both;
+}
+
+
+
+
+
+
+
+
